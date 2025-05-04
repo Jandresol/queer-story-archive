@@ -1,8 +1,7 @@
 
-import { useState } from 'react';
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ChevronDown, ChevronUp } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 export interface StoryProps {
   id: string;
@@ -16,11 +15,10 @@ export interface StoryProps {
 
 interface StoryCardProps {
   story: StoryProps;
+  onReadMore: (story: StoryProps) => void;
 }
 
-const StoryCard = ({ story }: StoryCardProps) => {
-  const [isExpanded, setIsExpanded] = useState(false);
-
+const StoryCard = ({ story, onReadMore }: StoryCardProps) => {
   return (
     <Card className="story-card overflow-hidden">
       <div className="relative aspect-[4/3] overflow-hidden">
@@ -39,37 +37,13 @@ const StoryCard = ({ story }: StoryCardProps) => {
         
         <p className="mt-2 text-queer-gray">{story.excerpt}</p>
         
-        <div className={`mt-4 overflow-hidden transition-all duration-300 ${isExpanded ? "max-h-[500px]" : "max-h-0"}`}>
-          <p className="text-queer-purpleDark whitespace-pre-line">{story.content}</p>
-          
-          {story.tags && (
-            <div className="mt-4 flex flex-wrap gap-2">
-              {story.tags.map((tag, index) => (
-                <span 
-                  key={index}
-                  className="px-3 py-1 bg-queer-softPurple text-queer-purple text-xs rounded-full"
-                >
-                  {tag}
-                </span>
-              ))}
-            </div>
-          )}
-        </div>
-        
         <Button
           variant="ghost"
           className="w-full mt-4 text-queer-purple hover:bg-queer-softPurple flex items-center justify-center"
-          onClick={() => setIsExpanded(!isExpanded)}
+          onClick={() => onReadMore(story)}
         >
-          {isExpanded ? (
-            <>
-              <ChevronUp className="h-4 w-4 mr-2" /> Show Less
-            </>
-          ) : (
-            <>
-              <ChevronDown className="h-4 w-4 mr-2" /> Read More
-            </>
-          )}
+          <span>Read Full Story</span>
+          <ArrowRight className="h-4 w-4 ml-2" />
         </Button>
       </CardContent>
     </Card>

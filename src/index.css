@@ -103,4 +103,17 @@
   .gradient-border-content {
     @apply bg-white rounded-lg p-6;
   }
+  
+  /* Add prose styling for story content in dialog */
+  .prose {
+    @apply text-base leading-relaxed;
+  }
+  
+  .prose p {
+    @apply mb-4;
+  }
+  
+  .prose.prose-lg {
+    @apply text-lg leading-relaxed;
+  }
 }

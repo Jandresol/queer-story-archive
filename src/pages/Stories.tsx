@@ -2,11 +2,15 @@
 import { useState } from 'react';
 import { stories } from '@/data/stories';
 import StoryCard from '@/components/stories/StoryCard';
+import StoryDialog from '@/components/stories/StoryDialog';
 import { Button } from '@/components/ui/button';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { StoryProps } from '@/components/stories/StoryCard';
 
 const Stories = () => {
   const [activeIndex, setActiveIndex] = useState(0);
+  const [selectedStory, setSelectedStory] = useState<StoryProps | null>(null);
+  const [isDialogOpen, setIsDialogOpen] = useState(false);
 
   const nextStory = () => {
     setActiveIndex((prev) => (prev + 1) % stories.length);
@@ -14,6 +18,15 @@ const Stories = () => {
 
   const prevStory = () => {
     setActiveIndex((prev) => (prev === 0 ? stories.length - 1 : prev - 1));
+  };
+
+  const handleReadMore = (story: StoryProps) => {
+    setSelectedStory(story);
+    setIsDialogOpen(true);
+  };
+
+  const closeDialog = () => {
+    setIsDialogOpen(false);
   };
 
   return (
@@ -36,7 +49,10 @@ const Stories = () => {
               {stories.map((story) => (
                 <div key={story.id} className="min-w-full px-4">
                   <div className="max-w-lg mx-auto">
-                    <StoryCard story={story} />
+                    <StoryCard 
+                      story={story} 
+                      onReadMore={handleReadMore} 
+                    />
                   </div>
                 </div>
               ))}
@@ -85,7 +101,11 @@ const Stories = () => {
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-8">All Stories</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {stories.map((story) => (
-              <StoryCard key={story.id} story={story} />
+              <StoryCard 
+                key={story.id} 
+                story={story} 
+                onReadMore={handleReadMore}
+              />
             ))}
           </div>
         </div>
@@ -104,6 +124,13 @@ const Stories = () => {
           </Button>
         </div>
       </div>
+
+      {/* Story Dialog */}
+      <StoryDialog 
+        story={selectedStory}
+        isOpen={isDialogOpen}
+        onClose={closeDialog}
+      />
     </div>
   );
 };
