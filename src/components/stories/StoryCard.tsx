@@ -5,13 +5,17 @@ import { ArrowRight } from "lucide-react";
 
 export interface StoryProps {
   id: string;
+  intro: string;
   name: string;
-  image: string;
+  song: string;
   excerpt: string;
-  content: string;
+  identity: string;
+  harvard: string;
   year?: string;
   tags?: string[];
+  bgGradient?: string;
 }
+
 
 interface StoryCardProps {
   story: StoryProps;
@@ -19,14 +23,14 @@ interface StoryCardProps {
 }
 
 const StoryCard = ({ story, onReadMore }: StoryCardProps) => {
+  
   return (
     <Card className="story-card overflow-hidden">
       <div className="relative aspect-[4/3] overflow-hidden">
         <div 
-          className="w-full h-full bg-gradient-to-br from-queer-purple to-queer-magenta flex items-center justify-center text-white"
+          className={`w-full h-full text-white text-center p-4 flex items-center justify-center ${story.bgGradient ?? 'bg-gradient-rainbow'}`}
           aria-label={`Image for ${story.name}'s story`}
         >
-          {story.name}'s Story
         </div>
       </div>
       <CardContent className="p-6">

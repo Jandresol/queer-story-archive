@@ -86,32 +86,23 @@ const About = () => {
         {/* Team Section */}
         <section className="mt-16">
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-8">Meet Our Team</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Team Member 1 */}
             <div className="story-card flex flex-col items-center p-6">
               <div className="w-32 h-32 rounded-full bg-gradient-rainbow flex items-center justify-center mb-4">
-                <span className="text-white text-2xl">JM</span>
+                <span className="text-white text-2xl">JA</span>
               </div>
-              <h3 className="text-xl font-bold">Jamie Martinez</h3>
-              <p className="text-queer-gray text-center">Project Founder & Coordinator</p>
+              <h3 className="text-xl font-bold">Jasmine Andresol</h3>
+              <p className="text-queer-gray text-center">Website Designer</p>
             </div>
 
             {/* Team Member 2 */}
             <div className="story-card flex flex-col items-center p-6">
               <div className="w-32 h-32 rounded-full bg-gradient-rainbow flex items-center justify-center mb-4">
-                <span className="text-white text-2xl">TK</span>
+                <span className="text-white text-2xl">HJ</span>
               </div>
-              <h3 className="text-xl font-bold">Taylor Kim</h3>
-              <p className="text-queer-gray text-center">Digital Archivist & Designer</p>
-            </div>
-
-            {/* Team Member 3 */}
-            <div className="story-card flex flex-col items-center p-6">
-              <div className="w-32 h-32 rounded-full bg-gradient-rainbow flex items-center justify-center mb-4">
-                <span className="text-white text-2xl">AJ</span>
-              </div>
-              <h3 className="text-xl font-bold">Alex Johnson</h3>
-              <p className="text-queer-gray text-center">Community Outreach</p>
+              <h3 className="text-xl font-bold">Helena Jackson</h3>
+              <p className="text-queer-gray text-center">Project Researcher</p>
             </div>
           </div>
         </section>

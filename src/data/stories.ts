@@ -4,47 +4,46 @@ import { StoryProps } from "@/components/stories/StoryCard";
 export const stories: StoryProps[] = [
   {
     id: "story1",
-    name: "Maya J.",
-    image: "/story1.jpg",
-    excerpt: "Navigating the intersections of Black and queer identity at Harvard.",
-    year: "Class of 2019",
-    content: "Growing up in a conservative Southern community, I never saw examples of Black queer joy. Coming to Harvard meant finding community for the first time, but it also meant navigating spaces where I was often either the only Black person or the only queer person.\n\nThrough student organizations and wonderful mentors, I found my people - other Black queer students who understood the unique challenges and joys of our intersectional identities. We created our own spaces when we couldn't find them, organizing events that celebrated all parts of who we are.\n\nMy four years at Harvard weren't always easy, but they were transformative. I learned to embrace all aspects of my identity and found the language to express experiences I'd always felt but couldn't name. Most importantly, I found family.",
-    tags: ["Black", "Queer", "Community Building", "Identity"]
+    name: "SeoYoung",
+    intro: "I am a Korean first-daughter immigrant from rural Texas. I identify as bisexual. I was involved in Harvard Undergraduate Capital Partners (HUCP) from freshman through junior year and started advocacy work with Task Force for Asian American Progressive Advocacy and Studies (TAPAS) during Visitas in 2021 and am an active organizer today. I will be in the Allston campus pottery studio or talking to one of my best friends/blockmates in a free hour.",
+    song: "seoul by RM",
+    excerpt: "Fighting for Queer AAPI students at Harvard.",
+    year: "Class of 2025",
+    identity: `April 2025, I clarified my understanding of navigating romance in this world. I defined the only difference between platonic and romantic love as a mutual desire to create a monogamous committed relationship. This definition applies to both men and women, so I now identify as bisexual. Before, this understanding, I was lesbian- because there were so few men I was interested in getting to know as a dear friend, I believed I had no interest in pursuing a deep comradeship with men, let alone a romantic relationship.`,
+    harvard: `I have loved my time on this campus. TAPAS has served as such a safe, encouraging, and critical community to enact impactful labor and find new ways to organize. I have worked with them to create a community fridge in Chinatown, book clubs including Fearing the Black Body by Sabrina Strings, a campus flea market with proceeds donated for wages in South/Southeast Asia and climate work, and an APIDA community art show. Attending and organizing protests, phonebanking, and scholar lectures are a part of the work as well. Constantly learning and working has been nothing short of fulfilling. People are nuanced- nothing is without perspective, and I wish all students and institutions understood this better about everyone.`,
+    tags: ["AAPI", "Activism", "Community Building", "Organizing"],
+    bgGradient: "bg-gradient-bi"
   },
+
   {
     id: "story2",
-    name: "Carlos R.",
-    image: "/story2.jpg",
-    excerpt: "Finding home through cultural student organizations as a gay Latino student.",
-    year: "Class of 2021",
-    content: "When I arrived at Harvard from my hometown in Texas, I immediately sought out the Latinx student organizations, hoping to find a piece of home. But I was nervous about being fully myself in those spaces - would my queerness be accepted?\n\nIt took me nearly a year to come out to my friends in these organizations. What I found was overwhelming support, love, and many others like me who were navigating similar intersectional identities.\n\nThrough cultural celebrations, political activism, and late-night conversations in the dining hall, I built a community that embraced all parts of me. These experiences taught me that I don't have to compartmentalize different aspects of my identity - I can be fully Latinx and fully queer at the same time.",
-    tags: ["Latinx", "Gay", "Cultural Organizations", "Coming Out"]
+    intro: "Hi!  I’m a first-year planning to concentrate in Social Studies. I’m a part of QSA Board and various PBHA programs.",
+    name: "Anonymous",
+    song: "Renaissance by Beyoncé. I gained a lot of pride in my queer identity after listening to it.",
+    excerpt: "Navigating the intersections of Latine and queer identity at Harvard.",
+    year: "Class of 2028",
+    identity: `My journey has been interesting. I first came out of the closet when I was in the 5th grade to all of my friends. Surprisingly, everyone took it well and nobody was mean about it. However, I moved and went back into the closet because I was afraid. I didn’t come out again until 7th grade to some close friends and I officially came out in the 8th grade. 
+
+    I never got to come out to my parents because they both passed away. I was 8 when my mother passed away and had no idea about my sexuality. I was 15 when my father passed away yet I was too afraid to ever say anything. Growing up religious and in a Latino family, many family members held traditional beliefs, most of them stemming from religious beliefs. My sister is queer and when she came out to my mother, she had a priest come over and bless my sister. 
+    
+    I never experienced any of this because I began living with my sister when I was 10. I was raised by her and her girlfriend. I was always in a queer space that made me comfortable to be myself. Today, I am extremely proud to be queer and I am a part of the Queer Students Association.`,
+    harvard: `Harvard has been a great experience. It is the most liberal place and accepting place I’ve been in. Despite living in Massachusetts, I live in a fairly conservative town. The spaces I’ve felt most seen here are usually the affinity spaces such as Latine and queer spaces. While I’ve been here I actually done much activism or organizing. Before getting on campus, I thought I would be doing a lot of great work and unfortunately I haven’t. However, I am awe of everyone who has and sometimes I wish that were me. Their work is so important and even if I’m not doing anything directly, supporting them is extremely important. 
+
+    Lastly, I wish other students understood that are identities are not separate. They’re layered and cause a specific type of oppression. Many will never fully understand but most will try to understand and that’s what it’s important.`,
+    tags: ["Latine", "Queer", "Community Building", "Identity"],
+    bgGradient: "bg-gradient-lgbt"
+
   },
   {
     id: "story3",
-    name: "Priya K.",
-    image: "/story3.jpg",
-    excerpt: "Creating space for South Asian queer women on campus.",
-    year: "Class of 2020",
-    content: "As an Indian-American lesbian, I often felt invisible in both South Asian and queer spaces at Harvard. In South Asian cultural events, heteronormativity was the unspoken norm, while in LGBTQ+ spaces, white perspectives frequently dominated.\n\nDuring my sophomore year, I connected with a few other South Asian queer women, and we began meeting informally for chai and conversations about our unique experiences. These gatherings grew into a more formal organization dedicated to creating community for queer South Asians on campus.\n\nThrough panels, cultural events, and just being visible together, we challenged stereotypes and created representation for others like us. These spaces were healing and affirming in ways I hadn't experienced before. For the first time, I felt I could be my complete self without translation or explanation.",
-    tags: ["South Asian", "Lesbian", "Community Organizing", "Representation"]
+    intro: "Hey 👋🏾! I am a Lesbian Haitian-American who grew up in the DM(V). I'm involved in various affinity spaces at Harvard, but am most active in the Harvard Caribbean Club. I am concentrating in computer science and neuroscience. I love to paint, drum and skateboard.",
+    name: "Jasmine",
+    song: "Trenchtown Rock by Bob Marley",
+    excerpt: "Coming to terms with being a Black and Lesbian.",
+    year: "Class of 2027",
+    identity: `Growing up as a tomboy-ish Black girl in a predominantly white area, I often felt out of place. Unlike many of my peers at Harvard, I had little exposure to my own culture beyond the my family home. This sense of alienation made family values and keeping up with tradition all the more important. I was raised with traditional gender roles and family values, yet I never found myself aligned with them. From an early age, I felt detached from the expectations placed on young women. I had no interest in marriage, prom, or the rites of passage that were supposed to define girlhood. These feelings, compounded by racial isolation, deeply complicated my understanding of self. The idea of "Black girlhood", connoted hyper-femininity and performance due to the hypermasculinization of our black bodies. I was also told from a young age that Black women are the least desirable, implanting the idea that I must work hard to be loved. I found myself struggling to keep up with the prevalence of desirability politics within white spaces as disconnected from the cultural expectations of Black womanhood. This led me to question, if I didn't belong in any of these frameworks, then who was I? Over time, I gravitated toward identities that resonated with my lived experience, including nonbinary and genderqueer. Eventually, coming to terms with my sexuality and gender as a Lesbian woman was a pivotal shift. I began to understand that my discomfort was not a failure to conform, but rather a sign that the heteronormative structures I had tried to fit into were never meant for me.`,
+    harvard: `I felt like Harvard was the first place I could embrace my queerness for the first time. Through Queer spaces, I was able to find community and cultivate strong friendships. I recall during my freshman year going down to the Quoffice at least once a month to join in on the events hosted. My favorites being the Black affinity spaces or the Halloween pumpkin painting session. Through the parties, I was also able to meet new people, including my current girlfriend. In my freshman year, I felt like Harvard was an amazing place to be out and proud. However, I do feel like there has been a shift. During this school year, I felt smaller numbers across all affinity spaces, but especially queer ones. I've noticed that affirmative action might have impacted the queer population strongly, even if not directly, due to shifting of priorities away from cultivating a diverse student body. I think also with personal circumstances of having a stronger courseload, trying to get a job, etc. I've personally felt less in touch with the Queer Harvard community. Now with the Trump administration looming, I can only begin to think this is the start of a downward trend of losing our community spaces. I can only hope that we as a marginalized group stay strongly connected and remain resilient in a time where our rights can be taken away at a moment's notice.`,
+    tags: ["Caribbean", "Queer", "Community Building", "Identity"],
+    bgGradient: "bg-gradient-les"
   },
-  {
-    id: "story4",
-    name: "Jordan T.",
-    image: "/story4.jpg",
-    excerpt: "Discovering gender identity and expression during freshman year.",
-    year: "Class of 2022",
-    content: "Before Harvard, I never had the language or freedom to explore my gender identity. Coming from a small conservative town, I presented the way people expected me to, even though it never felt right.\n\nCollege gave me the space to experiment with presentation and to connect with other nonbinary students of color who were on similar journeys. From trying new pronouns to exploring gender-affirming clothing, each step was both terrifying and liberating.\n\nIn my African American studies classes, I found theoretical frameworks that helped me understand how gender, race, and sexuality intersect. These academic insights, combined with supportive friends and mentors, gave me the courage to fully embrace my nonbinary identity.\n\nToday, I'm more comfortable in my skin than I've ever been, and I'm grateful for the community that supported me through this journey of self-discovery.",
-    tags: ["Nonbinary", "Gender Expression", "Self-Discovery", "African American"]
-  },
-  {
-    id: "story5",
-    name: "Min-Jun P.",
-    image: "/story5.jpg",
-    excerpt: "Reconciling faith, culture, and sexuality as a Korean American bisexual student.",
-    year: "Class of 2018",
-    content: "The hardest part of my Harvard experience was reconciling my conservative Christian Korean background with my bisexuality. For years, I compartmentalized these aspects of my identity, being one person with my Korean Christian friends and another with my queer friends.\n\nThe turning point came when I found a small group of LGBTQ+ Asian students who were also people of faith. Together, we explored theologies that affirmed rather than rejected our sexualities. We shared strategies for talking to our families and navigating cultural expectations.\n\nWhat I learned through these conversations was that integration, not compartmentalization, was the path to wholeness. I didn't have to choose between my faith, my culture, and my sexuality – I could honor all of these parts of myself.\n\nThough I'm still on this journey, Harvard gave me the foundation to start building a life where I don't have to hide any part of who I am.",
-    tags: ["Korean American", "Bisexual", "Faith", "Cultural Identity"]
-  }
-];
+]

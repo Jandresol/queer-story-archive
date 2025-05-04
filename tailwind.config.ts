@@ -131,8 +131,17 @@ export default {
 				'body': ['Inter', 'sans-serif'],
 			},
 			backgroundImage: {
-				'gradient-rainbow': 'linear-gradient(90deg, #f5a9b8 0%, #5bcefa 50%, #9b87f5 100%)',
+				'gradient-rainbow': 'linear-gradient(90deg, #ff759d 0%, #9b87f5 100%)',
 				'gradient-soft': 'linear-gradient(90deg, hsla(277, 75%, 84%, 1) 0%, hsla(297, 50%, 51%, 1) 100%)',
+				// LGBT Pride (5-color version: red, orange, yellow, green, blue)
+				'gradient-lgbt': 'linear-gradient(180deg, #ff759d 0%, #ffac75 25%, #f0e99c 50%, #0EA5E9 75%, #9b87f5 100%)',
+
+				// Bisexual Pride (pink, purple, blue)
+				'gradient-bi': 'linear-gradient(180deg, #e63c9c 0%, #9b87f5 50%, #4253eb 100%)',
+
+				// Lesbian Pride (dark orange, light orange, white, pink, dark rose)
+				'gradient-les': 'linear-gradient(180deg, #d52d00 0%, #ff9a56 25%, #ffffff 50%, #d362a4 75%, #a30262 100%)',
+
 			}
 		}
 	},

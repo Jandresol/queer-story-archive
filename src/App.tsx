@@ -8,6 +8,7 @@ import MainLayout from "./components/layout/MainLayout";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Stories from "./pages/Stories";
+import History from "./pages/History";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -23,6 +24,7 @@ const App = () => (
           <Route path="/about" element={<MainLayout><About /></MainLayout>} />
           <Route path="/stories" element={<MainLayout><Stories /></MainLayout>} />
           <Route path="*" element={<NotFound />} />
+          <Route path="/history" element={<MainLayout><History/></MainLayout>} /> 
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
