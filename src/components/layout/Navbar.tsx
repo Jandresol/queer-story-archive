@@ -33,7 +33,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center">
-            <span className="text-xl md:text-2xl font-display font-bold gradient-text px-3 py-1.5 rounded-lg">
+            <span className="text-xl md:text-2xl font-display font-bold gradient-text">
               Queer Archives Project
             </span>
           </Link>

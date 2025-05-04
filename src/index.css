@@ -70,9 +70,7 @@
 /* Custom classes for the project */
 @layer components {
   .gradient-text {
-    @apply text-transparent bg-clip-text;
-    background-image: linear-gradient(90deg, #FF719A 0%, #FFA99F 40%, #FFE29F 70%, #9b87f5 100%);
-    text-shadow: 0px 0px 3px rgba(255, 255, 255, 0.2);
+    @apply text-transparent bg-clip-text bg-gradient-rainbow;
   }
   
   .story-card {
