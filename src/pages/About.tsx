@@ -99,7 +99,7 @@ const About = () => {
             {/* Team Member 2 */}
             <div className="story-card flex flex-col items-center p-6">
               <div className="w-32 h-32 rounded-full bg-gradient-rainbow flex items-center justify-center mb-4">
-                <span className="text-white text-2xl">HJ</span>
+              <img src="https://media.licdn.com/dms/image/v2/D4E03AQFi-3wMCUoVaw/profile-displayphoto-shrink_800_800/B4EZYLtsthGYAc-/0/1743953252239?e=1752105600&v=beta&t=9WLIMP-HTEspDd104gTTz-bCedSLr0fXSbH2geswRxk" alt="Helena Jackson" className="rounded-full w-full h-full object-cover" />
               </div>
               <h3 className="text-xl font-bold">Helena Jackson</h3>
               <p className="text-queer-gray text-center">Project Researcher</p>
