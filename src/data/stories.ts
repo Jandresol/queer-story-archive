@@ -4,6 +4,18 @@ import { StoryProps } from "@/components/stories/StoryCard";
 export const stories: StoryProps[] = [
   {
     id: "story1",
+    intro: "Hey! I’m a soon to be Junior here at Harvard concentrating in Physics.",
+    name: "Harmony",
+    song: "Renaissance for sure. Beyonce is absolutely an icon and I love her whole entire discography. But this particular album made me feel seen not only as a lesbian women but also as a long time dancer who really enjoys jazz and house. I love learning about queer history centered on dance as a form of resistance so this album embodied that for me and made me feel empowered.",
+    excerpt: "Journey of self-discovery as a Black Lesbian.",
+    year: "Class of 2027",
+    identity: `Coming to terms with my queerness was a long and difficult journey, that I’m continuing to navigate and work through to learn more about myself. Growing up in a family that hasn’t always made it feel safe/comfortable to come out or authentically be myself, I still worry that they will not be accepting and still haven’t came out due to this. For some time, I identified as unlabeled, wrestling with societal homophobia, compulsory heterosexuality and the deeply ingrained idea that women are meant for men, which made embracing the label lesbian feel scary and isolating. I read the classic Lesbian masterdoc, read articles, found some communities on social media and started to develop a sense of belonging but also fear. I realized quickly after this that unlabeled was not right for me and genuinely made me feel uncomfortable and that I was definitely lesbian. The intersections of societal homophobia, misogyny, and being Black/African American women compounded the struggle, making it feel like I was carrying multiple weights just to be myself. But finding community here at Harvard has helped with this and I’m prouder than ever now to be Lesbian and to be myself.`,
+    harvard: `Navigating Harvard as a Black, African American and Balkan lesbian woman has been both empowering and isolating at times, as I often find myself balancing pride in my identity with the challenge of feeling fully seen in predominantly white and cis-heteronormative spaces. Being involved in advocacy and resistance through groups like the African and African American Resistance Organization and the Generational African American Student Association has been a powerful way for me to reclaim space and uplift voices like mine. These spaces have taught me that resistance isn’t just about protest but also about building collation, a collective; also belonging, and healing. I wish more students and the institution understood that Queer POC experiences are shaped by layered struggles that can’t fully be separated or “othered” depending on the circumstance. Racism, homophobia, and cultural erasure are apart of the struggles of being a queer POC and I hope folks learn that true inclusion means actively addressing those intersections.`,
+    tags: ["Lesbian", "Queer", "Identity", "Black", "Dancer"],
+    bgGradient: "bg-gradient-les"
+  },
+  {
+    id: "story2",
     name: "SeoYoung",
     intro: "I am a Korean first-daughter immigrant from rural Texas. I identify as bisexual. I was involved in Harvard Undergraduate Capital Partners (HUCP) from freshman through junior year and started advocacy work with Task Force for Asian American Progressive Advocacy and Studies (TAPAS) during Visitas in 2021 and am an active organizer today. I will be in the Allston campus pottery studio or talking to one of my best friends/blockmates in a free hour.",
     song: "seoul by RM",
@@ -16,7 +28,7 @@ export const stories: StoryProps[] = [
   },
 
   {
-    id: "story2",
+    id: "story3",
     intro: "Hi!  I’m a first-year planning to concentrate in Social Studies. I’m a part of QSA Board and various PBHA programs.",
     name: "Anonymous",
     song: "Renaissance by Beyoncé. I gained a lot of pride in my queer identity after listening to it.",
@@ -35,15 +47,15 @@ export const stories: StoryProps[] = [
 
   },
   {
-    id: "story3",
+    id: "story4",
     intro: "Hey 👋🏾! I am a Lesbian Haitian-American who grew up in the DM(V). I'm involved in various affinity spaces at Harvard, but am most active in the Harvard Caribbean Club. I am concentrating in computer science and neuroscience. I love to paint, drum and skateboard.",
     name: "Jasmine",
     song: "Trenchtown Rock by Bob Marley",
-    excerpt: "Coming to terms with being a Black and Lesbian.",
+    excerpt: "Redefining Black Womanhood.",
     year: "Class of 2027",
     identity: `Growing up as a tomboy-ish Black girl in a predominantly white area, I often felt out of place. Unlike many of my peers at Harvard, I had little exposure to my own culture beyond the my family home. This sense of alienation made family values and keeping up with tradition all the more important. I was raised with traditional gender roles and family values, yet I never found myself aligned with them. From an early age, I felt detached from the expectations placed on young women. I had no interest in marriage, prom, or the rites of passage that were supposed to define girlhood. These feelings, compounded by racial isolation, deeply complicated my understanding of self. The idea of "Black girlhood", connoted hyper-femininity and performance due to the hypermasculinization of our black bodies. I was also told from a young age that Black women are the least desirable, implanting the idea that I must work hard to be loved. I found myself struggling to keep up with the prevalence of desirability politics within white spaces as disconnected from the cultural expectations of Black womanhood. This led me to question, if I didn't belong in any of these frameworks, then who was I? Over time, I gravitated toward identities that resonated with my lived experience, including nonbinary and genderqueer. Eventually, coming to terms with my sexuality and gender as a Lesbian woman was a pivotal shift. I began to understand that my discomfort was not a failure to conform, but rather a sign that the heteronormative structures I had tried to fit into were never meant for me.`,
     harvard: `I felt like Harvard was the first place I could embrace my queerness for the first time. Through Queer spaces, I was able to find community and cultivate strong friendships. I recall during my freshman year going down to the Quoffice at least once a month to join in on the events hosted. My favorites being the Black affinity spaces or the Halloween pumpkin painting session. Through the parties, I was also able to meet new people, including my current girlfriend. In my freshman year, I felt like Harvard was an amazing place to be out and proud. However, I do feel like there has been a shift. During this school year, I felt smaller numbers across all affinity spaces, but especially queer ones. I've noticed that affirmative action might have impacted the queer population strongly, even if not directly, due to shifting of priorities away from cultivating a diverse student body. I think also with personal circumstances of having a stronger courseload, trying to get a job, etc. I've personally felt less in touch with the Queer Harvard community. Now with the Trump administration looming, I can only begin to think this is the start of a downward trend of losing our community spaces. I can only hope that we as a marginalized group stay strongly connected and remain resilient in a time where our rights can be taken away at a moment's notice.`,
     tags: ["Caribbean", "Queer", "Community Building", "Identity"],
     bgGradient: "bg-gradient-les"
-  },
+  }
 ]

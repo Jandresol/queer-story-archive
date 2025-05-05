@@ -90,7 +90,7 @@ const About = () => {
             {/* Team Member 1 */}
             <div className="story-card flex flex-col items-center p-6">
               <div className="w-32 h-32 rounded-full bg-gradient-rainbow flex items-center justify-center mb-4">
-                <span className="text-white text-2xl">JA</span>
+                <img src="https://media.licdn.com/dms/image/v2/D4E03AQF8ph3z_xmqag/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1681505900141?e=2147483647&v=beta&t=TleJ4Ky6A33K77R2R6y4UjfZLaPFHQpvRom8BEtTVBA" alt="Jasmine Andresol" className="rounded-full w-full h-full object-cover" />
               </div>
               <h3 className="text-xl font-bold">Jasmine Andresol</h3>
               <p className="text-queer-gray text-center">Website Designer</p>

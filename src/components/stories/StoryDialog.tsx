@@ -32,6 +32,10 @@ const StoryDialog = ({ story, isOpen, onClose }: StoryDialogProps) => {
         <div className="mt-6">
           <div className="prose prose-lg max-w-none">
           <div className="text-lg font-medium mb-4 text-queer-purpleDark">{story.excerpt}</div>
+            <h2 className="text-2xl font-bold text-queer-purpleDark mb-2">Introduction</h2>
+            <div className="whitespace-pre-line text-queer-gray mb-4">{story.intro}</div>
+            <h2 className="text-2xl font-bold text-queer-purpleDark mb-2">What I'm Listening To 🎶🎧🎵:</h2>
+            <div className="whitespace-pre-line text-queer-gray mb-4">{story.song}</div>
             <h2 className="text-2xl font-bold text-queer-purpleDark mb-2">Personal Journey & Intersectionality</h2>
             <div className="whitespace-pre-line text-queer-gray mb-4">{story.identity}</div>
             <h2 className="text-2xl font-bold text-queer-purpleDark mb-2">Navigating Harvard</h2>
