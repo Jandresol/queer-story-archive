@@ -23,7 +23,6 @@ const App = () => (
           <Route path="/" element={<MainLayout><Home /></MainLayout>} />
           <Route path="/about" element={<MainLayout><About /></MainLayout>} />
           <Route path="/stories" element={<MainLayout><Stories /></MainLayout>} />
-          <Route path="*" element={<NotFound />} />
           <Route path="/history" element={<MainLayout><History/></MainLayout>} /> 
         </Routes>
       </BrowserRouter>
