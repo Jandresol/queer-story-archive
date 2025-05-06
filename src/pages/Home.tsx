@@ -128,6 +128,7 @@ const Home = () => {
           </p>
           <Button
             className="bg-queer-purple hover:bg-queer-purpleDark text-white px-8 py-6 text-lg"
+            onClick={() => window.open('https://docs.google.com/forms/d/1wwmV7P0s2AM4RvK7wWNYHY8psUxARF4OIPdAcVtzXlM/viewform', '_blank')} 
           >
             Share Your Story
           </Button>
