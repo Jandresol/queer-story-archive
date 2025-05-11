@@ -4,18 +4,6 @@ import { StoryProps } from "@/components/stories/StoryCard";
 export const stories: StoryProps[] = [
   {
     id: "story1",
-    intro: "Hey! I’m a soon to be Junior here at Harvard concentrating in Physics.",
-    name: "Harmony",
-    song: "Renaissance for sure. Beyonce is absolutely an icon and I love her whole entire discography. But this particular album made me feel seen not only as a lesbian women but also as a long time dancer who really enjoys jazz and house. I love learning about queer history centered on dance as a form of resistance so this album embodied that for me and made me feel empowered.",
-    excerpt: "Journey of self-discovery as a Black Lesbian.",
-    year: "Class of 2027",
-    identity: `Coming to terms with my queerness was a long and difficult journey, that I’m continuing to navigate and work through to learn more about myself. Growing up in a family that hasn’t always made it feel safe/comfortable to come out or authentically be myself, I still worry that they will not be accepting and still haven’t came out due to this. For some time, I identified as unlabeled, wrestling with societal homophobia, compulsory heterosexuality and the deeply ingrained idea that women are meant for men, which made embracing the label lesbian feel scary and isolating. I read the classic Lesbian masterdoc, read articles, found some communities on social media and started to develop a sense of belonging but also fear. I realized quickly after this that unlabeled was not right for me and genuinely made me feel uncomfortable and that I was definitely lesbian. The intersections of societal homophobia, misogyny, and being Black/African American women compounded the struggle, making it feel like I was carrying multiple weights just to be myself. But finding community here at Harvard has helped with this and I’m prouder than ever now to be Lesbian and to be myself.`,
-    harvard: `Navigating Harvard as a Black, African American and Balkan lesbian woman has been both empowering and isolating at times, as I often find myself balancing pride in my identity with the challenge of feeling fully seen in predominantly white and cis-heteronormative spaces. Being involved in advocacy and resistance through groups like the African and African American Resistance Organization and the Generational African American Student Association has been a powerful way for me to reclaim space and uplift voices like mine. These spaces have taught me that resistance isn’t just about protest but also about building collation, a collective; also belonging, and healing. I wish more students and the institution understood that Queer POC experiences are shaped by layered struggles that can’t fully be separated or “othered” depending on the circumstance. Racism, homophobia, and cultural erasure are apart of the struggles of being a queer POC and I hope folks learn that true inclusion means actively addressing those intersections.`,
-    tags: ["Lesbian", "Queer", "Identity", "Black", "Dancer"],
-    bgGradient: "bg-gradient-les"
-  },
-  {
-    id: "story2",
     name: "SeoYoung",
     intro: "I am a Korean first-daughter immigrant from rural Texas. I identify as bisexual. I was involved in Harvard Undergraduate Capital Partners (HUCP) from freshman through junior year and started advocacy work with Task Force for Asian American Progressive Advocacy and Studies (TAPAS) during Visitas in 2021 and am an active organizer today. I will be in the Allston campus pottery studio or talking to one of my best friends/blockmates in a free hour.",
     song: "seoul by RM",
@@ -25,6 +13,19 @@ export const stories: StoryProps[] = [
     harvard: `I have loved my time on this campus. TAPAS has served as such a safe, encouraging, and critical community to enact impactful labor and find new ways to organize. I have worked with them to create a community fridge in Chinatown, book clubs including Fearing the Black Body by Sabrina Strings, a campus flea market with proceeds donated for wages in South/Southeast Asia and climate work, and an APIDA community art show. Attending and organizing protests, phonebanking, and scholar lectures are a part of the work as well. Constantly learning and working has been nothing short of fulfilling. People are nuanced- nothing is without perspective, and I wish all students and institutions understood this better about everyone.`,
     tags: ["AAPI", "Activism", "Community Building", "Organizing"],
     bgGradient: "bg-gradient-bi"
+  },
+
+  {
+    id: "story2",
+    intro: "Hey! I’m a soon to be Junior here at Harvard concentrating in Physics.",
+    name: "Harmony",
+    song: "Renaissance for sure. Beyonce is absolutely an icon and I love her whole entire discography. But this particular album made me feel seen not only as a lesbian women but also as a long time dancer who really enjoys jazz and house. I love learning about queer history centered on dance as a form of resistance so this album embodied that for me and made me feel empowered.",
+    excerpt: "Journey of self-discovery as a Black Lesbian.",
+    year: "Class of 2027",
+    identity: `Coming to terms with my queerness was a long and difficult journey, that I’m continuing to navigate and work through to learn more about myself. Growing up in a family that hasn’t always made it feel safe/comfortable to come out or authentically be myself, I still worry that they will not be accepting and still haven’t came out due to this. For some time, I identified as unlabeled, wrestling with societal homophobia, compulsory heterosexuality and the deeply ingrained idea that women are meant for men, which made embracing the label lesbian feel scary and isolating. I read the classic Lesbian masterdoc, read articles, found some communities on social media and started to develop a sense of belonging but also fear. I realized quickly after this that unlabeled was not right for me and genuinely made me feel uncomfortable and that I was definitely lesbian. The intersections of societal homophobia, misogyny, and being Black/African American women compounded the struggle, making it feel like I was carrying multiple weights just to be myself. But finding community here at Harvard has helped with this and I’m prouder than ever now to be Lesbian and to be myself.`,
+    harvard: `Navigating Harvard as a Black, African American and Balkan lesbian woman has been both empowering and isolating at times, as I often find myself balancing pride in my identity with the challenge of feeling fully seen in predominantly white and cis-heteronormative spaces. Being involved in advocacy and resistance through groups like the African and African American Resistance Organization and the Generational African American Student Association has been a powerful way for me to reclaim space and uplift voices like mine. These spaces have taught me that resistance isn’t just about protest but also about building collation, a collective; also belonging, and healing. I wish more students and the institution understood that Queer POC experiences are shaped by layered struggles that can’t fully be separated or “othered” depending on the circumstance. Racism, homophobia, and cultural erasure are apart of the struggles of being a queer POC and I hope folks learn that true inclusion means actively addressing those intersections.`,
+    tags: ["Lesbian", "Queer", "Identity", "Black", "Dancer"],
+    bgGradient: "bg-gradient-les"
   },
 
   {
