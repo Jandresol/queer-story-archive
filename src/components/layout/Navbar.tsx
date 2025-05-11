@@ -114,6 +114,20 @@ const Navbar = () => {
               >
                 Stories
               </Link>
+              <Link 
+                to="/history" 
+                className={`navigation-link ${isActive('/history') ? 'active' : ''}`}
+                onClick={() => setIsMenuOpen(false)}
+              >
+                History
+              </Link>
+              <Link 
+                to="/significance" 
+                className={`navigation-link ${isActive('/significance') ? 'active' : ''}`}
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Significance
+              </Link>
             </div>
           </nav>
         )}
