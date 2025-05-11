@@ -142,6 +142,9 @@ export default {
 				// Lesbian Pride (dark orange, light orange, white, pink, dark rose)
 				'gradient-les': 'linear-gradient(180deg, #eb6357 0%, #ffa263 25%, #ffffff 50%, #e67cb6 75%, #f23a71 100%)',
 
+				// Gay Pride (dark orange, light orange, white, pink, dark rose)
+				'gradient-gay': 'linear-gradient(180deg, #078D70 0%, #98e8c1 25%, #ffffff 50%, #7BADE2 75%, #3D1A78 100%)'
+
 			}
 		}
 	},

@@ -79,6 +79,12 @@ const Navbar = () => {
             >
               History
             </Link>
+            <Link 
+              to="/significance" 
+              className={`navigation-link ${isActive('/significance') ? 'active' : ''}`}
+            >
+              Significance
+            </Link>
 
           </nav>
         </div>

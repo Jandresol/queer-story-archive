@@ -15,28 +15,34 @@ const About = () => {
             identity, preserves our stories, and builds community across generations.
           </p>
 
-          <div className="mb-12 aspect-[16/9] overflow-hidden rounded-xl bg-gradient-to-r from-queer-softPurple via-white to-queer-softPink flex items-center justify-center">
-            <div className="text-2xl font-display gradient-text">Archive Image</div>
+          <div className="w-full mx-auto mb-8 rounded-lg overflow-hidden shadow-lg">
+            <img 
+              src="https://www.harvard.edu/wp-content/uploads/2021/06/052521_Lehman_Lights_3221edit.png?w=1024&h=512&crop=1" 
+              alt="Marsha P. Johnson and Sylvia Rivera at the Stonewall" 
+              className="w-full h-full object-contain object-center"
+              />
           </div>
-
           <h2 className="text-2xl md:text-3xl font-bold mb-4">Our Story</h2>
           <p className="mb-4">
             The Queer Archives Project began as an initiative to document the often-overlooked 
             intersectional experiences of Queer People of Color at Harvard. Recognizing the lack of 
             historical documentation that specifically addresses the unique challenges, triumphs, 
-            and lived realities of QPOC students, we set out to create a platform that would preserve 
+            and lived realities of POC students, we set out to create a platform that would preserve 
             these important narratives.
           </p>
           <p className="mb-4">
-            Initially conceived as a print zine, the project evolved into a digital archive to better 
-            serve our community and reach a wider audience. While we started with a small collection 
-            of stories, our vision is to grow this archive into a comprehensive resource that spans 
-            generations of QPOC experiences at Harvard.
+            Our project is rooted in the belief that every story matters. By collecting and sharing 
+            personal narratives, we aim to affirm the identities of Queer POC at Harvard, challenge 
+            erasure and invisibility in historical narratives, and create a sense of community through 
+            shared experiences.
           </p>
-          <p>
-            The digital format allows us to combine the creative, personal energy of a zine with the 
-            accessibility and scalability of a website, creating a living document that can continue 
-            to grow and evolve alongside our community.
+          <p className="mb-4">
+          This project is a collaborative effort that brings together members of the Queer Harvard community. 
+          Initially imagined as a physical publication, it grew into a digital platform to broaden our reach and 
+          offer a more accessible, interactive experience. We invited Queer POC at Harvard to share their stories 
+          through written responses, reaching out via email, social media, and in-person conversations. 
+          The website merges the personalization of a written publication with the scalability of a 
+          digital platform, creating a living document that continues to evolve alongside our community.
           </p>
 
           <div className="my-12">
@@ -70,13 +76,8 @@ const About = () => {
           </div>
 
           <h2 className="text-2xl md:text-3xl font-bold mb-4">Looking Forward</h2>
-          <p className="mb-4">
-            As the Queer Archives Project grows, we aim to expand our collection of stories, 
-            incorporate different media formats, and develop categorization systems that make 
-            it easier to explore the archive by themes, identities, time periods, and more.
-          </p>
           <p>
-            We invite all Queer POC members of the Harvard community—past and present—to 
+            We invite all Queer POC members of the Harvard community, past and present, to 
             consider contributing their stories to this growing archive. Whether through written 
             narratives, visual art, audio recordings, or other creative formats, your experiences 
             are a valuable part of our collective history.

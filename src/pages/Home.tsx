@@ -97,13 +97,12 @@ const Home = () => {
           <h2 className="section-title text-center mb-8">Featured Story</h2>
           <div className="max-w-2xl mx-auto story-card">
             <div className="aspect-[16/9] bg-gray-100 overflow-hidden">
-              <div className="w-full h-full bg-gradient-rainbow flex items-center justify-center">
-                <span className="text-white text-lg">Featured Image</span>
+              <div className="w-full h-full bg-gradient-bi flex items-center justify-center">
               </div>
             </div>
             <div className="p-6">
-              <h3 className="text-xl font-bold mb-2">Finding Home in Multiple Identities</h3>
-              <p className="text-queer-gray mb-4">A journey of navigating intersectional identities and building community at Harvard.</p>
+              <h3 className="text-xl font-bold mb-2">SeoYoung</h3>
+              <p className="text-queer-gray mb-4">Fighting for Queer Students at Harvard.</p>
               <Button 
                 asChild
                 variant="outline" 
