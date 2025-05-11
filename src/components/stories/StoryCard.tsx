@@ -26,7 +26,7 @@ const StoryCard = ({ story, onReadMore }: StoryCardProps) => {
   
   return (
     <Card className="story-card overflow-hidden">
-      <div className="relative aspect-[4/3] overflow-hidden">
+      <div className="relative aspect-[4/3] min-h-[200px] overflow-hidden">
         <div 
           className={`w-full h-full text-white text-center p-4 flex items-center justify-center ${story.bgGradient ?? 'bg-gradient-rainbow'}`}
           aria-label={`Image for ${story.name}'s story`}
